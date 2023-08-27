@@ -1,0 +1,35 @@
+.rec .rec-arrow {
+  color: coral;
+  background-color: #fff;
+  border-radius: 0;
+}
+
+.rec .rec-arrow:disabled {
+  visibility: hidden;
+}
+
+.rec .rec-carousel-item:hover {
+  box-shadow: 3px 3px 50px 2px lightgray;
+}
+
+.rec.rec-arrow-left:hover:enabled,
+.rec.rec-arrow-right:hover:enabled{
+    border-radius: 100%;
+    background-color: coral;
+    box-shadow: 0 0 1px 3px var(--clr-primary-400);
+}
+
+.rec-dot_active {
+    background-color: coral !important;
+    box-shadow: 0 0 1px 3px lightgray !important;
+}
+.rec-dot:focus,
+.rec-dot:hover {
+    background-color: coral !important;
+    box-shadow: 0 0 1px 3px lightgray !important;
+}
+.rec-dot_active:focus,
+.rec-dot_active:hover {
+    background-color: coral !important;
+    box-shadow: 0 0 1px 3px lightgray !important;
+}
