@@ -23,7 +23,11 @@
     background-color: coral !important;
     box-shadow: 0 0 1px 3px lightgray !important;
 }
-.rec-dot:focus,
+
+.rec-dot {
+  box-shadow: 0 0 1px 3px lightgray !important;
+}
+
 .rec-dot:hover {
     background-color: coral !important;
     box-shadow: 0 0 1px 3px lightgray !important;
