@@ -18,7 +18,7 @@ const PopularProducts = () => {
     <section id="products" className="max-container max-sm:mt-12">
       <div className="flex flex-col justify-start gap-5">
         <h2 className="text-4xl font-palanquin font-bold">Our <span className="text-coral-red">Popular</span> Products</h2>
-        <p className="lg:max-w-lg mt-2 font-montserrat text-slate-gray">
+        <p className="lg:max-w-lg mt-2 font-montserrat text-slate-gray mb-10">
           Whether you're in search of classic sneakers that combine comfort and
           style, sophisticated dress shoes that radiate elegance, or
           high-performance athletic shoes engineered with the latest technology,
@@ -26,7 +26,7 @@ const PopularProducts = () => {
         </p>
       </div>
 
-      <Carousel breakPoints={breakPoints} enableAutoPlay autoPlaySpeed={2000}>
+      <Carousel breakPoints={breakPoints} infinite={true} enableAutoPlay autoPlaySpeed={2000}>
       {products.map((product) => (
           
           <PopularProductCard key={product.name} {...product} />

@@ -34,51 +34,61 @@ export const products = [
         imgURL: "https://i.pinimg.com/originals/81/07/b5/8107b5317778399e62d2ee604017275c.jpg",
         name: "Nike Free Run 5",
         price: "₹ 7999.00",
+        rating: "4.3",
     },
     {
         imgURL: "https://www.lifestylesports.com/on/demandware.static/-/Sites-LSS_eCommerce_Master/default/dw2c3375a9/images/12695820xlalt4.jpg",
         name: "Nike Pegasus-37",
         price: "₹ 13199.00",
+        rating: "4.8",
     },
     {
         imgURL: "https://www.lifestylesports.com/on/demandware.static/-/Sites-LSS_eCommerce_Master/default/dwf6643176/images/12696300xlalt4.jpg",
         name: "Nike Pegasus-2",
         price: "₹ 9999.00",
+        rating: "4.7",
     },
     {
         imgURL: "https://freepngimg.com/thumb/shoes/27428-5-nike-shoes-transparent-background.png",
         name: "Nike Air Max-003",
         price: "₹ 11999.00",
+        rating: "4.8",
     },
     {
         imgURL: "https://th.bing.com/th/id/OIP.bXdDnj8Mn9Q2JIzR4H9noQEyDM?pid=ImgDet&rs=1",
         name: "Nike Free Run 3",
         price: "₹ 5999.00",
+        rating: "4.2",
     },
     {
         imgURL: "https://i.pinimg.com/736x/5c/02/a2/5c02a20156317e021b353b4625da38c1--nike-free-run--nike-free-shoes.jpg",
         name: "Nike Air Max-01",
         price: "₹ 7999.00",
+        rating: "4.4",
     },
     {
         imgURL: "https://i.pinimg.com/originals/01/76/ae/0176ae1335fa663f73430efd5870f79c.jpg",
         name: "Nike Go",
         price: "₹ 9999.00",
+        rating: "4.6",
     },
     {
         imgURL: "https://www.theairmax270.com/wp-content/uploads/2020/10/sale-nike-renew-elevate-navy-blue-varsity-red-white-mens-basketball-shoes-600x401.png",
         name: "Nike Elevate",
         price: "₹ 10999.00",
+        rating: "4.7",
     },
     {
         imgURL: "https://th.bing.com/th/id/OIP.Q7p4r1TDBBYpiTAxcBlurgHaE9?pid=ImgDet&rs=1",
         name: "Nike KD Trey 5",
         price: "₹ 9999.00",
+        rating: "4.5",
     },
     {
         imgURL: "https://th.bing.com/th/id/OIP.236iWEt2e9Yej4x_ErxcyQHaE8?pid=ImgDet&rs=1",
         name: "Nike Hyperdunk",
         price: "₹ 12999.00",
+        rating: "4.8",
     },
 ];
 
