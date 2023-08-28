@@ -114,7 +114,7 @@ export const reviews = [
     {
         imgURL: customer1,
         customerName: 'Morich Brown',
-        rating: 4.5,
+        rating: 4.7,
         feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
     },
     {
@@ -122,6 +122,12 @@ export const reviews = [
         customerName: 'Lota Mongeskar',
         rating: 4.5,
         feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
+    },
+    {
+        imgURL: "https://th.bing.com/th/id/R.100ccc7f8e37e81751f8b567eeefd338?rik=SLbsChSbs5jxwQ&riu=http%3a%2f%2fimages4.fanpop.com%2fimage%2fphotos%2f16300000%2fRandom-people-random-16382026-600-800.jpg&ehk=G607Osd64KyUcUxc7XDFDiromF%2bKPM863TeHL6o1Wt8%3d&risl=&pid=ImgRaw&r=0",
+        customerName: 'Elijah Williams',
+        rating: 4.8,
+        feedback: "The product didn't just meet my expectations; it went above and beyond. I'll certainly be coming back for more!"
     }
 ];
 

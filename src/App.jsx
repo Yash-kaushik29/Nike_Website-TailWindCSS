@@ -8,7 +8,6 @@ import {
   Footer,
   SpecialOffer,
 } from './sections'
-
 import Nav from './components/Nav';
 
 const App = () => (
